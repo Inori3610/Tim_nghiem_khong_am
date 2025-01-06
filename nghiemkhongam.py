@@ -17,7 +17,7 @@ def giaipt(xa,xb,da,db):
         y2 += 1
     print (f"y1 = d2^-1 mod d1 = {d2}^-1 mod {d1} = {y1}")
     print (f"y2 = d1^-1 mod d2 = {d1}^-1 mod {d2} = {y2}")
-    print (f"x = {n} / {da} * {xa} * {y1} + {n} / {db} * {xb} * {y2} = {(n/da*xa*y1+n/db*xb*y2)%n}")
+    print (f"x = {n} / {da} * {xa} * {y1} + {n} / {db} * {xb} * {y2} mod {n} = {(n/da*xa*y1+n/db*xb*y2)%n}")
     
 
 
